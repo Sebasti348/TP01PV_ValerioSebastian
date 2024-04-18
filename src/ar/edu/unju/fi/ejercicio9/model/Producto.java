@@ -2,7 +2,7 @@ package ar.edu.unju.fi.ejercicio9.model;
 
 public class Producto {
     private String nombre;
-    private String codigo;
+    private String cod;
     private double precio;
     private int descuento;
 
@@ -12,7 +12,7 @@ public class Producto {
 
     public Producto(String nombre, String codigo, double precio, int descuento) {
         this.nombre = nombre;
-        this.codigo = codigo;
+        this.cod = codigo;
         this.precio = precio;
         this.descuento = descuento;
     }
