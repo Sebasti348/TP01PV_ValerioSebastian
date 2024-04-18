@@ -23,4 +23,9 @@ public class Producto {
     public double calcularDescuento() {
         return this.precio - (this.precio * this.descuento / 100.0);
     }
+
+	public void setnombre(String nextLine) {
+		// TODO Auto-generated method stub
+		
+	}
 }

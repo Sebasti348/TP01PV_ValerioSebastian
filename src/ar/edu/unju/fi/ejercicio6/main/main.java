@@ -14,8 +14,6 @@ public class main {
 		String Nombre;
 		LocalDate FechaDeNacimiento;
 		String Provincia ;
-
-	
 		
 		System.out.println("Introduce");
 		System.out.println("Dni: ");
