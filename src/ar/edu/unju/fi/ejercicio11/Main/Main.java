@@ -7,19 +7,19 @@ public class Main {
 		
 		int i = 2, j;
 		boolean band = true;
-		int valor = 0;
+		int val = 0;
 		int desc = 1;
 		for(j=40 ; j>=0 ; j--) {
 			
 			if(band) {
-				valor= j*i;
+				val= j*i;
 				band=false;
 				desc = desc + i;
 			}
 			else {
-				System.out.print(valor+" ");
+				System.out.print(val+" ");
 				
-				valor = valor + (40-desc);
+				val = val + (40-desc);
 				
 				desc = desc + i;
 			}
